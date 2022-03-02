@@ -1,0 +1,8 @@
+a=eval(input("Enter anything[a] :"))
+b=eval(input("Enter anything[b] :"))
+c=eval(input("Enter anything[c] :"))
+print("a =",a,", b=",b,", c=",c)
+print("a = {}, b= {}, c= {}".format(a,b,c))
+print("a = {2}, b= {1}, c= {0}".format(a,b,c))
+print("a = {x}, b= {y}, c= {z}".format(x=a,y=b,z=c))
+print("a = %s, b= %s, c= %s"%(a,b,c))

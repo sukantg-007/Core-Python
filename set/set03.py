@@ -1,0 +1,11 @@
+s=set(range(1,10,2))
+print(s)
+print(s.pop())
+print(s)
+#print(s.remove(10))KeyError: 10
+print(s.remove(5))
+print(s)
+print(s.discard(10))
+print(s)
+s.clear()
+print(s)

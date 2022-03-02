@@ -1,0 +1,16 @@
+#dict={1:"a",2:"b",3:"c"}
+dict=dict({(1,"a"),(2,"b"),(3,"c")})
+print(dict)
+print(len(dict))
+print(dict.get(1))
+print(dict.get(5))
+print(dict.get(5,"Not Available"))
+print(dict.pop(3))
+#print(dict.pop(4))
+print(dict)
+print(dict.popitem())
+print(dict)
+L=dict.keys()
+l=[x for x in dict.keys()]
+print(l)
+print(dict.values())

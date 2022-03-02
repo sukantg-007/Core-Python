@@ -1,0 +1,7 @@
+print("Integer number : {:d}".format(123))
+print("Integer number : {:<06d}".format(123))
+print("Integer number : {:>06d}".format(123))
+print("Integer number : {:^06d}".format(123))
+print("Integer number : {:=06d}".format(-123))
+print("Integer number : {:=010.3f}".format(-123.456))
+print("Integer number : {:^010.3f}".format(-123.456))

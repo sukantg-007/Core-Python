@@ -1,0 +1,7 @@
+s="Python is easy language to learn".split()
+#l=s.split()
+l="\n,".join(s).split(",")
+print(l)
+f=open("pqr.txt","x")
+f.writelines(l)
+f.close()

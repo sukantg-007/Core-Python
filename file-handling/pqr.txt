@@ -1,0 +1,5 @@
+Start
+Python is very easy.
+It is oopl.
+It is easy to learn.
+Python is genereal purpose language.
